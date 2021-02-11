@@ -1,0 +1,34 @@
+* {
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Home Section */
+
+.home-container .home-col img {
+    height: 200px;
+    width: 250px;
+    padding: 2rem;
+
+}
+
+.home-container {
+    background-color: #A6808C;
+}
+
+ul li a {
+    color: #fff;
+    text-align: left !important;
+}
+
+.col-cards {
+    padding-top: 15px;
+}
+
+/* Home Section */
