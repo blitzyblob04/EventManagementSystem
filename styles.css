@@ -129,6 +129,7 @@ ul li a {
 
 .sectionContainer {
     background-image: url('img/min4.jpg');
+    text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
 
 
 }
@@ -138,13 +139,39 @@ ul li a {
     padding-bottom: 3rem;
 }
 
+.langUse {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.langUage {
+    padding-bottom: 2rem;
+}
+
 
 
 /* About Page */
 
+/* Contacts */
+
+.contactsBG {
+    background-image: url('img/contactus.jpg');
+    padding-bottom: 5rem;
+    text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+
+}
+
+.formControl {
+    padding-bottom: 10px;
+}
+
+.h4Mod h4 {
+    padding-bottom: 0.4rem;
+}
 
 
 
+/* Contacts */
 
 
 
