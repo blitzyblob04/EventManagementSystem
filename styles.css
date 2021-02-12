@@ -106,13 +106,41 @@ ul li a {
 /* Fixed Background Area */
 
 .fixed {
-    background-image: url('img/fixedbackgrounds.jpg');
+    background-image: url('img/cloudback.jpg');
     position: fixed;
 }
 
 .fixed-background {
-    padding: 10rem 0;
+    padding: 5rem 0;
 }
+
+.fixedBackText h1 {
+    color: #fff;
+    text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
+
+.fixedBackText img {
+    height: 300px;
+    width: 300px;
+}
+
+/* About Page */
+
+
+.sectionContainer {
+    background-image: url('img/min4.jpg');
+
+
+}
+
+.contactsTitle {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+
+
+/* About Page */
 
 
 
