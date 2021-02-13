@@ -154,8 +154,12 @@ ul li a {
 
 /* Contacts */
 
+.contactsRow {
+    padding-bottom: 1rem;
+}
+
 .contactsBG {
-    background-image: url('img/contactus.jpg');
+    background-image: url('img/contactus1.png');
     padding-bottom: 5rem;
     text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
 
@@ -173,15 +177,28 @@ ul li a {
 
 /* Contacts */
 
+/* Footers CSS */
+
+.footLogo img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.footContainer {
+    background-color: black;
+    padding: 5rem;
+}
+
+/* .footSocial {
+    padding-left: 8px;
+} */
 
 
 
 
 
 
-
-
-
+/* Footers CSS */
 
 
 
