@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <title>Ulaps Event Management System</title>
 
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -24,9 +25,23 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav d-flex bd-highlight mr-auto">
                 <li class="nav-item"><a class="nav-link"href="index.html">home</a></li>
-                <li class="nav-item"><a class="nav-link"href="events.html">events</a></li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Events
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="meetings.html">Meetings</a>
+                    <a class="dropdown-item" href="presentation.html">Presentations</a>
+                    <a class="dropdown-item" href="training.html">Trainings</a>
+                    <a class="dropdown-item" href="playgrounds.html">Playgrounds</a>
+                    </div>
+                </li>
+
                 <li class="nav-item"><a class="nav-link"href="features.html">Features</a></li>
+
                 <li class="nav-item"><a class="nav-link"href="about.html">About</a></li>
+
                 <li class="nav-item"><a class="nav-link"href="contacts.html">Contacts</a></li>
             </ul>
             <div class="">
@@ -88,7 +103,7 @@
                                     <div class="border-top border-primary w-100"></div>
                                     <br> <br>
                                         <h3>Where all our events will be going...</h3>
-                                         <button type="button" class="btn btn-primary">Proceed</button>
+                                         <button type="button" class="btn btn-primary"><a href="presentation.html">Proceed</a></button>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +139,7 @@
                                     <div class="border-top border-primary w-100"></div>
                                     <br> <br>
                                         <h3>Activities Regarding playgrounds Time will be placed here (Images and Records)</h3>
-                                         <button type="button" class="btn btn-primary">Proceed</button>
+                                         <button type="button" class="btn btn-primary"><a href="playgrounds.html"></a></button>
                                 </div>
                             </div>
                         </div>
